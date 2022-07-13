@@ -104,7 +104,7 @@ class _ContactProfilePageState extends State<ContactProfilePage> {
           onPressed: () {
               setState(() {
                 
-                //NEW CODE: Currently selected theme toggles when FAB is pressed
+                // Currently selected theme toggles when FAB is pressed
                 currentTheme == APP_THEME.DARK
                     ? currentTheme = APP_THEME.LIGHT
                     : currentTheme = APP_THEME.DARK;
