@@ -83,7 +83,8 @@ class _ContactProfilePageState extends State<ContactProfilePage> {
 
  //Setting a default theme
   var currentTheme = APP_THEME.LIGHT;
-
+  //String imgUrl = "https://drive.google.com/file/d/1VhEd6f_eQ5J56wsVWsbCQHLaLzw1Gr0H/view?usp=sharing";
+ 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -146,7 +147,7 @@ Widget buildBodyWidget() {
               width: double.infinity,
               height: 250,
               child: Image.network(
-                "https://drive.google.com/file/d/1VhEd6f_eQ5J56wsVWsbCQHLaLzw1Gr0H/view?usp=sharing",
+                'https://drive.google.com/uc?export=view&id=1VhEd6f_eQ5J56wsVWsbCQHLaLzw1Gr0H',
                 height: 250,
                 fit: BoxFit.cover,
               ),
@@ -157,7 +158,7 @@ Widget buildBodyWidget() {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: const <Widget>[
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.all(8.0),
                     child: Text(
                       "Muwonge Lawrence",
                       style: TextStyle(fontSize: 30),
@@ -316,7 +317,7 @@ Widget mobilePhoneListTile() {
 Widget otherPhoneListTile() {
  return ListTile(
    leading: const Text(""),
-   title: const Text("440-440-3390"),
+   title: const Text("+256 773-750-670"),
    subtitle: const Text("other"),
    trailing: IconButton(
      icon: const Icon(Icons.message),
