@@ -146,7 +146,7 @@ Widget buildBodyWidget() {
               width: double.infinity,
               height: 250,
               child: Image.network(
-                "https://github.com/ptyagicodecamp/educative_flutter/raw/profile_1/assets/profile.jpg?raw=true",
+                "https://drive.google.com/file/d/1VhEd6f_eQ5J56wsVWsbCQHLaLzw1Gr0H/view?usp=sharing",
                 height: 250,
                 fit: BoxFit.cover,
               ),
