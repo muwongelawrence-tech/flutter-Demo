@@ -330,14 +330,14 @@ Widget emailListTile() {
  return const ListTile(
    leading: Icon(Icons.email),
    title: Text("muwongelawrence44@gmail.com"),
-   subtitle: Text("work"),
+   subtitle: Text("Email"),
  );
 }
 
 Widget addressListTile() {
  return ListTile(
    leading: const Icon(Icons.location_on),
-   title: const Text("234 Sunset St, Burlingame"),
+   title: const Text(" Central Kampala , Uganda"),
    subtitle: const Text("home"),
    trailing: IconButton(
      icon: const Icon(Icons.directions),
